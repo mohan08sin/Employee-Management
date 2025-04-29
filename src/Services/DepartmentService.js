@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const DEPARTMENT_REST_API_BASE_URL = "https://mohan08sin-employee-management-be-2.onrender.com";
+const DEPARTMENT_REST_API_BASE_URL = "https://mohan08sin-employee-management-be-2.onrender.com/api/departments";
 
 export const getAllDepartments = () => axios.get(DEPARTMENT_REST_API_BASE_URL);
 
